@@ -24,11 +24,11 @@ public class base_living : MonoBehaviour
 	[SerializeField] public float ground_check_radius = 0.25f;
 	[SerializeField] LayerMask ground_layer;
 
-	[SerializeField] public float speed = 12.0f;
+	[SerializeField] public float speed = 10.0f;
 
 	[SerializeField] public bool can_sprint = true;
 	[SerializeField] KeyCode sprint = KeyCode.LeftShift;
-	[SerializeField] public float sprint_multiplier = 2.5f;
+	[SerializeField] public float sprint_multiplier = 1.5f;
 	
 	float effective_speed;
 
